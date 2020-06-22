@@ -1,4 +1,3 @@
-2584
+2207
 ====
-
-2048 Fibonacci
+Another 2048 Lucas
