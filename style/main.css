@@ -2,7 +2,23 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  background: #edcf72;
+    background-image:
+      -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
+      -moz-linear-gradient(-45deg, #f65e3b 25%, transparent 25%),
+      -moz-linear-gradient(45deg, transparent 75%, #f65e3b 75%),
+      -moz-linear-gradient(-45deg, transparent 75%, #f65e3b 75%);
+    background-image:
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #f65e3b), color-stop(.25, transparent)),
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #f65e3b), color-stop(.25, transparent)),
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #f65e3b)),
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #f65e3b));
+
+    -moz-background-size:107px 107px;
+    background-size:107px 107px;
+    -webkit-background-size:107px 107px; /* override value for webkit */
+    
+    background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -349,7 +365,7 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
@@ -369,7 +385,7 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
@@ -389,12 +405,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-5 .tile-inner {
+  .tile.tile-4 .tile-inner {
     background: #f67c5f;
     background-image:
       -moz-linear-gradient(45deg, #f59563 25%, transparent 25%),
@@ -409,12 +425,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-8 .tile-inner {
+  .tile.tile-7 .tile-inner {
     background: #f65e3b;
     background-image:
       -moz-linear-gradient(45deg, #f67c5f 25%, transparent 25%),
@@ -429,12 +445,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-13 .tile-inner {
+  .tile.tile-11 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -449,12 +465,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-21 .tile-inner {
+  .tile.tile-18 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -469,12 +485,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-34 .tile-inner {
+  .tile.tile-29 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -489,12 +505,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-55 .tile-inner {
+  .tile.tile-47 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -509,12 +525,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-89 .tile-inner {
+  .tile.tile-76 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -529,12 +545,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-144 .tile-inner {
+  .tile.tile-123 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -549,12 +565,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-233 .tile-inner {
+  .tile.tile-199 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -569,12 +585,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-377 .tile-inner {
+  .tile.tile-322 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -589,12 +605,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-610 .tile-inner {
+  .tile.tile-521 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -609,12 +625,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-987 .tile-inner {
+  .tile.tile-843 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -629,12 +645,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-1597 .tile-inner {
+  .tile.tile-1364 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -649,12 +665,12 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
   }
-  .tile.tile-2584 .tile-inner {
+  .tile.tile-2207 .tile-inner {
     background: #edcf72;
     background-image:
       -moz-linear-gradient(45deg, #f65e3b 25%, transparent 25%),
@@ -669,7 +685,7 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
