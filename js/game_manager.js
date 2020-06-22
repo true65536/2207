@@ -126,10 +126,11 @@ GameManager.prototype.move = function (direction) {
         var next      = self.grid.cellContent(positions.next);
 
         // Only one merger per row traversal?
-        if (next && self.canMerge(tile, next) && !next.mergedFrom) {
-        // if (next && next.value === tile.value && !next.mergedFrom) {
-          // var merged = new Tile(positions.next, tile.value * 2);
-          var merged = new Tile(positions.next, tile.value + next.value, Math.max(tile.index, next.index) + 1);
+        if (next && !next.mergedFrom
+			&& isFibo(tile.value) && isFibo(next.value)
+			&& isFibo(tile.value+next.value)
+			) {
+          var merged = new Tile(positions.next, tile.value+next.value);
           merged.mergedFrom = [tile, next];
 
           self.grid.insertTile(merged);
@@ -141,8 +142,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty 2584 tile
-          if (merged.value === 2584) self.won = true;
+          // The mighty 2207 tile
+          if (merged.value === 2207) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
